@@ -1,0 +1,1135 @@
+[
+  {
+    "id": "addy-agent-skills",
+    "name": "Addy Osmani · Agent Skills",
+    "summary": "從規格、分工到驗證的軟體開發技能集。",
+    "category": "開發工作流",
+    "tags": [
+      "Skills",
+      "筆記",
+      "規格"
+    ],
+    "body": "先寫驗收條件，再將工作拆成小任務，逐項測試並安排獨立審查。",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  {
+    "id": "agency-agents",
+    "name": "Agency Agents",
+    "summary": "可依工程、設計、行銷等職能挑選的 AI 代理定義集合。",
+    "category": "開發工作流",
+    "tags": [
+      "AI agent",
+      "角色代理",
+      "工程",
+      "設計",
+      "行銷"
+    ],
+    "body": "短影音將 Agency Agents 描述為包含多部門角色的代理集合，可依任務挑選專責角色。代理數量和能力屬專案自己的描述，使用前查看 README 和各 agent 定義，確認適用任務及權限。",
+    "url": "https://github.com/msitarzewski/agency-agents"
+  },
+  {
+    "id": "agent-reach",
+    "name": "Agent Reach",
+    "summary": "社群貼文推薦的網路資料搜尋與讀取工具。",
+    "category": "開發工具",
+    "tags": [
+      "資料搜尋",
+      "CLI",
+      "Agent"
+    ],
+    "body": "截圖提到可協助代理查找多個社群平台資料。GitHub 上有同名專案，實際使用應限於平台公開文件和允許的存取方式，遵守平台權限、速率限制與服務條款，不使用繞過存取限制的方法。",
+    "url": "https://github.com/Panniantong/Agent-Reach"
+  },
+  {
+    "id": "agent-usage-guard",
+    "name": "Agent Usage Guard",
+    "summary": "在代理 fan-out 或重試可能造成大量用量時加入使用量保護。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "用量",
+      "代理"
+    ],
+    "body": "GitHub 專案 rbartoli/agent-usage-guard。截圖提到限制同時啟動的代理數量；實際規則和提示方式請查看 repository 文件，避免只依社群貼文中的案例判斷。",
+    "url": "https://github.com/rbartoli/agent-usage-guard"
+  },
+  {
+    "id": "answer-me-with-html",
+    "name": "answer-me-with-html：用單頁 HTML 解說複雜問題",
+    "summary": "Claude Code Skill 以可互動或可視化的 HTML 頁面呈現答案，方便閱讀艱深內容。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "Skill",
+      "HTML",
+      "視覺化",
+      "解說"
+    ],
+    "body": "GitHub 專案 doggy8088/answer-me-with-html 將答案整理成單頁 HTML，適合需要圖表、版面或分段解說的主題。截圖提及 README 繁體中文版本。安裝前先查看技能要求的工具與執行權限。",
+    "url": "https://github.com/doggy8088/answer-me-with-html"
+  },
+  {
+    "id": "frontend-design",
+    "name": "Anthropic Frontend Design",
+    "summary": "引導 Claude 製作有明確視覺方向的前端。",
+    "category": "設計與創作",
+    "tags": [
+      "Claude",
+      "Skills",
+      "網站"
+    ],
+    "body": "先描述受眾、用途與希望呈現的氣質，將排版、動態與空間配置一起交給設計流程處理。",
+    "url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design"
+  },
+  {
+    "id": "awesome-design-md",
+    "name": "Awesome Design MD",
+    "summary": "整理可供 coding agent 使用的設計規範與設計文件。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "設計規範",
+      "Coding Agent"
+    ],
+    "body": "截圖中的設計資源清單項目，適合從專案 README 了解其收錄的設計文件和使用方式。",
+    "url": "https://github.com/VoltAgent/awesome-design-md"
+  },
+  {
+    "id": "aws-ai-practitioner",
+    "name": "AWS Certified AI Practitioner",
+    "summary": "雲端 AI、機器學習與生成式 AI 基礎認證。",
+    "category": "學習與職涯",
+    "tags": [
+      "證照",
+      "課程",
+      "學習"
+    ],
+    "body": "選課筆記：先確認對象、先備知識、是否需要另報考試，以及完成課程後取得的證明。報名前以主辦單位公布的資格與費用為準。",
+    "url": "https://aws.amazon.com/certification/certified-ai-practitioner/"
+  },
+  {
+    "id": "canvas-ui",
+    "name": "Canvas UI",
+    "summary": "以 Canvas 為主的介面或視覺效果資源。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "Canvas",
+      "視覺"
+    ],
+    "body": "截圖中的設計資源清單項目，可檢視示範和原始碼評估是否適合目前的前端技術。",
+    "url": "https://github.com/DavidHDev/canvas-ui"
+  },
+  {
+    "id": "caveman",
+    "name": "Caveman",
+    "summary": "以短句保留技術資訊，減少代理回覆的冗詞。",
+    "category": "開發工作流",
+    "tags": [
+      "Token",
+      "精簡輸出",
+      "Claude",
+      "Cursor"
+    ],
+    "body": "適合想快速掃過修正內容或 code review 結果時使用。可調整壓縮程度，再用同一項任務比較輸出的可讀性。",
+    "url": "https://github.com/JuliusBrussee/caveman"
+  },
+  {
+    "id": "claude-architect",
+    "name": "Claude Certified Architect – Foundations",
+    "summary": "Claude 應用架構認證。",
+    "category": "學習與職涯",
+    "tags": [
+      "證照",
+      "課程",
+      "學習"
+    ],
+    "body": "選課筆記：先確認對象、先備知識、是否需要另報考試，以及完成課程後取得的證明。報名前以主辦單位公布的資格與費用為準。",
+    "url": "https://www.anthropic.com/news/claude-partner-network"
+  },
+  {
+    "id": "claude-code-setup",
+    "name": "Claude Code Setup",
+    "summary": "依程式庫特性找出適合的 Claude Code 自動化設定。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "Skills",
+      "Hooks",
+      "MCP"
+    ],
+    "body": "先分析專案，再挑選相關的 skills、hooks、子代理和 MCP 整合。",
+    "url": "https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup"
+  },
+  {
+    "id": "claude-history-board",
+    "name": "Claude Code 對話紀錄與任務看板",
+    "summary": "將開發計畫、任務狀態與實際對話連起來的工具構想。",
+    "category": "開發工作流",
+    "tags": [
+      "Trello",
+      "Session",
+      "歷史紀錄"
+    ],
+    "body": "作者以可搜尋的 session 歷史找回 prompt 和變更原因。看板分成 plan、todo、doing、done；每張卡片能追溯執行對話，完成後再驗證與接續下一項。截圖未提供公開工具網址。"
+  },
+  {
+    "id": "claude-code-prompt-audit",
+    "name": "Claude Code 提示檔檢查與模型遷移筆記",
+    "summary": "摘錄一張 Claude Code 操作筆記中的提示檔盤點與模型遷移命令範例。",
+    "category": "開發工作流",
+    "tags": [
+      "Claude Code",
+      "提示詞",
+      "模型遷移",
+      "待查證"
+    ],
+    "body": "截圖中的筆記展示兩個 `/claude-api` 命令範例。`/claude-api prompt-audit` 用來盤點 CLAUDE.md、rules、skills、commands 和 agents 等指示檔，找出舊模型假設或彼此不一致的內容並提出修改建議；`/claude-api migrate this project to claude-opus-5-5` 用於協助遷移專案模型設定。這些命令看來屬於第三方擴充，截圖沒有列出外掛來源或官方文件，安裝前應確認擴充的作者與實際行為。此條只保留命令和用途範例，已排除個人訂閱及用量資訊。"
+  },
+  {
+    "id": "model-effort",
+    "name": "Claude Code 模型與推理強度分工",
+    "summary": "依任務難度設定預設模型與升級條件。",
+    "category": "開發工作流",
+    "tags": [
+      "Sonnet",
+      "Opus",
+      "effort",
+      "成本"
+    ],
+    "body": "貼文用 Sonnet 與中等 effort 處理日常修改，再把複雜推理或重複失敗的任務交給更高能力的模型。可將升級條件寫入專案說明，用實際用量比較成本。"
+  },
+  {
+    "id": "concise",
+    "name": "Claude Code 的 Concise 輸出風格",
+    "summary": "在支援此選項的版本中切換較簡潔的回覆風格。",
+    "category": "開發工作流",
+    "tags": [
+      "output-style",
+      "精簡輸出",
+      "設定"
+    ],
+    "body": "截圖示範從 /config 進入 output-style，選擇 concise。可用同一段提問比較兩種風格的文字長度與回答重點。"
+  },
+  {
+    "id": "claude-flightdeck",
+    "name": "Claude Flightdeck",
+    "summary": "在終端儀表板查看 Claude Code 代理活動、成本和權限檢查。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "代理",
+      "監看"
+    ],
+    "body": "GitHub 專案 scasella/claude-flightdeck。可用來觀察代理執行情況和 permission check。截圖描述應以專案目前版本文件為準。",
+    "url": "https://github.com/scasella/claude-flightdeck"
+  },
+  {
+    "id": "claude-mem",
+    "name": "Claude Mem",
+    "summary": "保存 Claude Code 工作階段中的專案脈絡，供後續 Session 取用。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "記憶",
+      "Session"
+    ],
+    "body": "截圖提到跨 Session 記住專案背景。GitHub 上可找到 thedotmack/claude-mem 專案，使用前應閱讀其資料保存位置、傳送方式和移除記憶的說明。",
+    "url": "https://github.com/thedotmack/claude-mem"
+  },
+  {
+    "id": "claude-red",
+    "name": "Claude-Red",
+    "summary": "供 Claude 使用的應用程式安全測試技能集合，涵蓋登入、權限與輸入處理等檢查面向。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "資安",
+      "安全測試",
+      "Skills",
+      "開源"
+    ],
+    "body": "維護者可從三類問題檢查程式碼：登入狀態是否正確驗證、資料存取是否受權限限制、外部輸入是否經過驗證。將發現記錄成可供審查的修正項目。"
+  },
+  {
+    "id": "claudex-loop",
+    "name": "Claudex Loop",
+    "summary": "讓 Claude Code 與 Codex 分別規劃、交叉審查，並可選擇由另一模型實作的協作 Skill。",
+    "category": "開發工作流",
+    "tags": [
+      "Claude",
+      "ChatGPT",
+      "多模型",
+      "待補來源"
+    ],
+    "body": "短影音以 Claude 和 ChatGPT 共同檢視同一任務為主題。查到的 Claudex Loop 專案提供 Claude Code 與 Codex 之間的路由和交叉審查流程，可讓一方提出計畫、另一方檢查，也可把實作交給另一方再做獨立複查。需要同時設定兩個工具，實際流程、相容版本及命令以 README 為準。",
+    "url": "https://github.com/chaseai-yt/claudex-loop"
+  },
+  {
+    "id": "ports",
+    "name": "Clean Architecture 的 In Port 與 Out Port",
+    "summary": "從呼叫方向辨認應用層的輸入與輸出埠。",
+    "category": "開發工作流",
+    "tags": [
+      "DDD",
+      "控制流",
+      "資料流",
+      "Repository"
+    ],
+    "body": "外部呼叫 CreateBoardUseCase 的入口屬於 In Port。Use Case 呼叫 Repository 取得 Aggregate 時，Repository 屬於 Out Port；即使資料回傳到 Use Case，控制流仍由應用層發出。"
+  },
+  {
+    "id": "security-audit-skill",
+    "name": "Cloudflare Security Audit Skill",
+    "summary": "用結構化方法審閱程式碼中的安全疑點。",
+    "category": "開發工作流",
+    "tags": [
+      "安全審查",
+      "程式碼",
+      "review"
+    ],
+    "body": "適合維護者整理防禦性審查結果。先記錄受影響的程式與證據，再由另一位審查者檢查推論，將已確認項目與待釐清項目分開。",
+    "url": "https://github.com/cloudflare/security-audit-skill"
+  },
+  {
+    "id": "codebase-memory-mcp",
+    "name": "Codebase Memory MCP",
+    "summary": "以 MCP 提供持續保存的程式碼、文件與基礎設施脈絡，供 AI agent 查詢。",
+    "category": "開發工具",
+    "tags": [
+      "MCP",
+      "Coding agent",
+      "程式碼結構",
+      "程式碼記憶"
+    ],
+    "body": "短影音推薦 Codebase Memory MCP，用於保存專案結構脈絡，協助 coding agent 在修改前理解相關程式碼與影響範圍。實際功能、持久化方式和 MCP 客戶端支援依專案文件為準。",
+    "url": "https://github.com/DeusData/codebase-memory-mcp"
+  },
+  {
+    "id": "codegraph",
+    "name": "CodeGraph",
+    "summary": "用本機程式碼索引理解專案關係。",
+    "category": "開發工作流",
+    "tags": [
+      "Claude",
+      "Skills",
+      "網站"
+    ],
+    "body": "在修改前找到相關符號、呼叫端與相依模組，幫助代理理解現有實作。",
+    "url": "https://github.com/colbymchenry/codegraph"
+  },
+  {
+    "id": "codex-personalization-notes",
+    "name": "Codex 個人化指示與記憶設定筆記",
+    "summary": "整理個人化指示的寫法，以及本機記憶功能的設定位置。",
+    "category": "提示詞與工作流程",
+    "tags": [
+      "Codex",
+      "個人化",
+      "提示詞",
+      "記憶"
+    ],
+    "body": "截圖提供一個可重用的 Codex 個人化指示結構：先說明回答順序，再要求可直接採用的方案、清晰格式、避免重複，並在發現架構或執行風險時說明修正方法。改寫成通用範本時，可用「先給結論，再說明架構與執行步驟；優先提供可落地方案；依任務複雜度調整說明長度；若發現風險，指出影響並提出修正方式」。畫面也顯示可在設定中管理本機記憶與相關記憶來源。此條已排除截圖中個人原文與帳戶資訊。"
+  },
+  {
+    "id": "codex-handoff",
+    "name": "Codex 多個 Session 的交接",
+    "summary": "讓規劃、實作與測試在不同對話間傳遞結果。",
+    "category": "開發工作流",
+    "tags": [
+      "handoff",
+      "heartbeat",
+      "多代理"
+    ],
+    "body": "規劃者交付任務和驗收條件，實作者回報進度，測試者接收產出並回傳失敗案例。交接保留目前狀態、已完成事項與下一步，讓下一位可以接手。"
+  },
+  {
+    "id": "rtk-coding-agent-token-notes",
+    "name": "Coding agent 輸出過濾與 Token 成本觀察",
+    "summary": "一則比較 Coding agent 輸出過濾器的個人實驗筆記，提醒把完整任務輪數與耗時一併納入評估。",
+    "category": "開發工作流",
+    "tags": [
+      "Coding agent",
+      "RTK",
+      "Token",
+      "效能評估",
+      "實驗"
+    ],
+    "body": "作者描述使用 RTK 等終端輸出過濾工具的經驗，並提到比較實驗中部分指令輸出縮減很多。文章同時提醒，單看輸出位元組數不足以代表總成本下降，還需觀察工具支援的命令範圍、agent 是否因此需要更多輪對話，以及總耗時。貼文提到一個自製 Skill，但沒有提供其內容，因此此條只保存評估觀點，不推測該 Skill 的做法。數字為個人測試結果，不能直接套用到其他專案。",
+    "url": "https://github.com/rtk-ai/rtk"
+  },
+  {
+    "id": "codync",
+    "name": "Codync",
+    "summary": "把本機已安裝的 coding agents 連接到訊息介面，從手機、桌面或終端機遠端派工。",
+    "category": "開發工作流",
+    "tags": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Gemini CLI",
+      "遠端代理",
+      "ACP"
+    ],
+    "body": "貼文描述 Codync 透過 ACP registry 找到本機 coding agent，讓使用者由手機、桌面 app 或終端機傳送任務，並在代理完成或需要核准時收到通知。也提到可在群組中讓多個 bot 協作、透過 Cloudflare 中繼或同網路連線，以及用 WebRTC 檢視和操作電腦。連線方式、加密設計與代理支援清單應以專案文件為準。",
+    "url": "https://github.com/leepokai/Codync"
+  },
+  {
+    "id": "dimensional-drawing",
+    "name": "Dimensional Drawing",
+    "summary": "社群清單中的立體繪圖與介面視覺資源。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "繪圖",
+      "3D"
+    ],
+    "body": "截圖列出 enesozturk/dimensional-drawing。可至專案頁查看範例與實際用途。",
+    "url": "https://github.com/enesozturk/dimensional-drawing"
+  },
+  {
+    "id": "elephant-goldfish",
+    "name": "Elephant-Goldfish Model",
+    "summary": "讓另一個代理從頭閱讀規格、找出隱含假設。",
+    "category": "開發工作流",
+    "tags": [
+      "Skills",
+      "筆記",
+      "規格"
+    ],
+    "body": "掌握歷史脈絡的代理撰寫設計；審查者只讀設計文件並提問，再將缺漏補回文件。",
+    "url": "https://github.com/google/elephant-goldfish-model"
+  },
+  {
+    "id": "emilkowalski-skills",
+    "name": "Emil Kowalski Skills",
+    "summary": "介面開發相關技能集合。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "Skills",
+      "前端"
+    ],
+    "body": "截圖列出 emilkowalski/skills。使用前查看 README 確認目前收錄的技能和支援工具。",
+    "url": "https://github.com/emilkowalski/skills"
+  },
+  {
+    "id": "everything-claude-code",
+    "name": "Everything Claude Code（ECC）",
+    "summary": "Coding agent 設定與工作流程集合，包含 agents、skills、hooks、rules 和 MCP 設定。",
+    "category": "開發工作流",
+    "tags": [
+      "Claude Code",
+      "Codex",
+      "Cursor",
+      "Skills",
+      "Hooks",
+      "開源",
+      "子代理",
+      "Gemini"
+    ],
+    "body": "截圖推薦 Everything Claude Code。專案整理 AI coding agent 可重用的 agents、skills、hooks、rules、MCP 設定及工作流程，方向涵蓋規劃、測試、程式碼審查、記憶與持續改善。專案會持續變動，使用前查看目前 README、支援的 agent 工具及安裝說明。",
+    "url": "https://github.com/affaan-m/ECC"
+  },
+  {
+    "id": "find-skills-discovery",
+    "name": "find-skills：搜尋可安裝的 AI Skills",
+    "summary": "透過 skills CLI 搜尋簡報等主題的技能，再按來源與維護狀況挑選。",
+    "category": "開發工具",
+    "tags": [
+      "Skills",
+      "簡報",
+      "CLI",
+      "技能搜尋",
+      "Claude Code"
+    ],
+    "body": "截圖示範在 Claude Code 中呼叫 find-skills，並以 npx skills find presentation 和 npx skills find pptx 搜尋簡報技能。結果包含 anthropics/skills 的 pptx、heygen-com/hyperframes 的 slideshow 等專案。貼文建議先看安裝數及作者來源。安裝數會變動，使用前仍應檢查原始碼、授權、權限要求與近期維護狀況。",
+    "url": "https://skills.sh/vercel-labs/skills/find-skills"
+  },
+  {
+    "id": "freellmapi",
+    "name": "FreeLLMAPI",
+    "summary": "用統一介面管理不同供應商提供的模型。",
+    "category": "開發工具",
+    "tags": [
+      "模型 API",
+      "Claude Code",
+      "額度"
+    ],
+    "body": "適合測試已取得授權的模型端點；可用模型與配額取決於個別供應商。",
+    "url": "https://github.com/tashfeenahmed/freellmapi"
+  },
+  {
+    "id": "github-foundations",
+    "name": "GitHub Foundations",
+    "summary": "GitHub 協作與平台基礎認證。",
+    "category": "學習與職涯",
+    "tags": [
+      "證照",
+      "課程",
+      "學習"
+    ],
+    "body": "選課筆記：先確認對象、先備知識、是否需要另報考試，以及完成課程後取得的證明。報名前以主辦單位公布的資格與費用為準。",
+    "url": "https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/"
+  },
+  {
+    "id": "github-spec-kit",
+    "name": "GitHub Spec Kit：以規格驅動開發",
+    "summary": "開源工具組，協助 coding agent 先釐清需求並形成規格，再進入實作。",
+    "category": "開發工具",
+    "tags": [
+      "GitHub",
+      "Spec-driven development",
+      "規格",
+      "Coding Agent",
+      "開源"
+    ],
+    "body": "Spec Kit 用於規格驅動開發流程，可協助把需求整理成結構化規格，再交由 coding agent 執行。貼文列出 Cursor、Claude Code、Copilot、Gemini CLI 和 Codex 等相容對象。適合在需求較複雜、需要先對齊範圍時評估。實際支援方式、安裝步驟和功能以官方文件為準。",
+    "url": "https://github.com/github/spec-kit"
+  },
+  {
+    "id": "google-ai-essentials",
+    "name": "Google AI Essentials",
+    "summary": "學習如何將生成式 AI 用於日常工作。",
+    "category": "學習與職涯",
+    "tags": [
+      "證照",
+      "課程",
+      "學習"
+    ],
+    "body": "選課筆記：先確認對象、先備知識、是否需要另報考試，以及完成課程後取得的證明。報名前以主辦單位公布的資格與費用為準。",
+    "url": "https://grow.google/ai-essentials/"
+  },
+  {
+    "id": "google-design-md",
+    "name": "Google Labs Design.md",
+    "summary": "以設計文件提供介面生成時可遵循的規格。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "設計規範",
+      "Google"
+    ],
+    "body": "截圖列出 google-labs-code/design.md。可檢視專案所提供的設計文件與使用說明。",
+    "url": "https://github.com/google-labs-code/design.md"
+  },
+  {
+    "id": "graft",
+    "name": "Graft",
+    "summary": "為 coding agent 生成可閱讀的程式碼結構地圖，協助快速理解大型 repository。",
+    "category": "開發工具",
+    "tags": [
+      "Coding agent",
+      "程式碼地圖",
+      "程式碼結構",
+      "Claude Code",
+      "Codex"
+    ],
+    "body": "短影音介紹 Graft 可將程式碼專案整理成地圖，讓 coding agent 快速掌握目錄與程式碼結構。專案頁目前使用 Trail-Code 的產品脈絡說明 Graft map，查看 README 了解最新名稱、安裝方式和支援範圍。",
+    "url": "https://github.com/trailhq/Graft"
+  },
+  {
+    "id": "gsap-skills",
+    "name": "GSAP Skills",
+    "summary": "協助 coding agent 使用 GSAP 製作網站動畫的技能集合。",
+    "category": "設計與創作",
+    "tags": [
+      "動畫",
+      "GSAP",
+      "Skills",
+      "前端"
+    ],
+    "body": "截圖列出 greensock/gsap-skills。使用前確認目前的安裝方式及 GSAP 授權條件。",
+    "url": "https://github.com/greensock/gsap-skills"
+  },
+  {
+    "id": "hallmark",
+    "name": "Hallmark",
+    "summary": "社群清單中的介面設計相關開源專案。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "設計",
+      "開源"
+    ],
+    "body": "截圖列出 Nutlope/hallmark。可至專案頁查看實際用途、使用方式和維護狀況。",
+    "url": "https://github.com/Nutlope/hallmark"
+  },
+  {
+    "id": "herdr-agent-collaboration",
+    "name": "Herdr：在終端工作台協調多個 coding agent",
+    "summary": "以主代理分派任務給其他模型或代理，並在同一工作台檢視和介入執行過程。",
+    "category": "開發工具",
+    "tags": [
+      "Herdr",
+      "Claude Code",
+      "Gemini",
+      "多代理",
+      "終端機"
+    ],
+    "body": "Evan Lin 的文章分享使用 Herdr 配合 Claude Code 和 Gemini 協作：主代理負責分派，另一個模型實作，Claude Code 審查，最後整理成文章。作者認為可在單一工作流程中混用模型並即時介入。截圖也顯示本機檔案路徑等私人內容，已排除在整理摘要之外。",
+    "url": "https://www.evanlin.com/herdr-claude-code-agy-collab/"
+  },
+  {
+    "id": "hiring-panel-skill",
+    "name": "hiring-panel-skill：用多個角色檢視履歷",
+    "summary": "Claude Code 技能以不同讀者角色檢視和改寫履歷，適合當檢查清單，不代表招聘結果。",
+    "category": "提示詞與工作流程",
+    "tags": [
+      "Claude Code",
+      "Skill",
+      "履歷",
+      "求職",
+      "多代理"
+    ],
+    "body": "來源為 Alex Chen 的 GitHub 專案 alexyc9381/hiring-panel-skill。貼文描述此技能會模擬自動篩選、招聘經理及多位讀者，之後改寫並複查履歷。實際使用時貼上職缺原文，逐項核對模型提出的問題，並請真人再看一次；不要把模型的「通過」當作招聘機構的評分或面試保證。貼文引用的招募調查與論文結論應回到原始研究查核。",
+    "url": "https://github.com/alexyc9381/hiring-panel-skill"
+  },
+  {
+    "id": "ibm-generative-ai",
+    "name": "IBM Generative AI Engineering Professional Certificate",
+    "summary": "生成式 AI 工程系列課程與修課證書。",
+    "category": "學習與職涯",
+    "tags": [
+      "證照",
+      "課程",
+      "學習"
+    ],
+    "body": "選課筆記：先確認對象、先備知識、是否需要另報考試，以及完成課程後取得的證明。報名前以主辦單位公布的資格與費用為準。",
+    "url": "https://www.coursera.org/professional-certificates/ibm-generative-ai-engineering"
+  },
+  {
+    "id": "impeccable",
+    "name": "Impeccable",
+    "summary": "審視既有前端並逐項修整設計。",
+    "category": "設計與創作",
+    "tags": [
+      "Claude",
+      "Skills",
+      "網站",
+      "UI",
+      "UX"
+    ],
+    "body": "適合在可操作的原型上檢查文字層次、留白、對比和不同尺寸的閱讀體驗。",
+    "url": "https://github.com/pbakaus/impeccable"
+  },
+  {
+    "id": "lemo-opuscar",
+    "name": "Lemo Opuscar",
+    "summary": "用程式碼生成影片風格與短片的 Claude Code 工具箱。",
+    "category": "設計與創作",
+    "tags": [
+      "Claude Code",
+      "影片",
+      "生成式動畫"
+    ],
+    "body": "GitHub 專案 lemomo-ai/lemo-opuscar。專案說明包含多種風格和以程式碼製作的影片示例。截圖所稱的動畫用途可由原始碼與最新 README 核對。",
+    "url": "https://github.com/lemomo-ai/lemo-opuscar"
+  },
+  {
+    "id": "line-art-animation",
+    "name": "Line Art Animation",
+    "summary": "以文字描述場景，產生可動的線稿插畫。",
+    "category": "設計與創作",
+    "tags": [
+      "線稿",
+      "SVG",
+      "動畫"
+    ],
+    "body": "可用走路的人物或日夜循環場景作為起點，再調整動作與畫面構圖。",
+    "url": "https://github.com/JDhruv14/line-art-animation"
+  },
+  {
+    "id": "linkedin-remote",
+    "name": "LinkedIn 美國遠端職缺搜尋",
+    "summary": "用英文職稱、工作地區與遠端條件設定職缺通知。",
+    "category": "學習與職涯",
+    "tags": [
+      "求職",
+      "Remote",
+      "英文履歷"
+    ],
+    "body": "在 Open to Work 勾選 Remote，並選擇可見對象。用桌面版建立英文個人檔案，在 Jobs 以英文職稱搜尋 United States，選 Remote，再開啟職缺通知。個人所在地填寫實際居住地。",
+    "url": "https://www.linkedin.com/jobs/"
+  },
+  {
+    "id": "magicui",
+    "name": "Magic UI",
+    "summary": "可組合到網站中的 React 動態介面元件。",
+    "category": "設計與創作",
+    "tags": [
+      "React",
+      "UI",
+      "動畫",
+      "元件"
+    ],
+    "body": "從元件範例開始組成介面，再按產品需求調整動態、可讀性與行動版呈現。",
+    "url": "https://github.com/magicuidesign/magicui"
+  },
+  {
+    "id": "grill-me",
+    "name": "Matt Pocock · Grill Me",
+    "summary": "開工前由代理逐題釐清設計。",
+    "category": "開發工作流",
+    "tags": [
+      "Skills",
+      "筆記",
+      "規格"
+    ],
+    "body": "把初步需求交給代理，逐一回答會改變實作的問題，將決定寫入規格。",
+    "url": "https://github.com/mattpocock/skills"
+  },
+  {
+    "id": "motion-library",
+    "name": "Motion Library",
+    "summary": "可瀏覽互動網頁動態範例並複製 AI 提示詞的前端設計素材庫。",
+    "category": "設計與創作",
+    "tags": [
+      "網頁設計",
+      "動態效果",
+      "提示詞",
+      "前端"
+    ],
+    "body": "截圖顯示 Motion Library 提供元件和情境篩選，可直接預覽或互動試玩效果，並複製用來描述視覺與實作方式的 AI 提示詞。畫面舉例包括文字、SVG、背景、Hero、Logo、表單與 App 介面等分類。網站收錄數量和功能會變動。",
+    "url": "https://kittenjam-motion-library.vercel.app/"
+  },
+  {
+    "id": "nvidia-skillspector",
+    "name": "NVIDIA SkillSpector",
+    "summary": "安裝 AI agent skill 前掃描安全風險與可疑內容。",
+    "category": "開發工具",
+    "tags": [
+      "安全",
+      "Skills",
+      "NVIDIA",
+      "供應鏈"
+    ],
+    "body": "NVIDIA 官方 GitHub 專案。可在安裝前檢查 agent skills 的漏洞、惡意模式、prompt injection 與供應鏈風險。掃描結果仍應配合人工檢視，並確認專案文件列出的偵測範圍。",
+    "url": "https://github.com/NVIDIA/SkillSpector"
+  },
+  {
+    "id": "obsidian-skills",
+    "name": "Obsidian Skills",
+    "summary": "協助代理編輯 Obsidian 筆記庫。",
+    "category": "開發工作流",
+    "tags": [
+      "Skills",
+      "筆記",
+      "規格"
+    ],
+    "body": "可用於撰寫雙向連結、整理 Bases 資料表，以及在 Canvas 白板組織筆記。",
+    "url": "https://github.com/kepano/obsidian-skills"
+  },
+  {
+    "id": "open-design",
+    "name": "Open Design",
+    "summary": "在本機優先的協作空間內用 AI 製作設計。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "開源",
+      "設計"
+    ],
+    "body": "可整理網頁、原型和簡報，與團隊或代理分享並反覆修改。",
+    "url": "https://github.com/nexu-io/open-design"
+  },
+  {
+    "id": "openalice",
+    "name": "OpenAlice",
+    "summary": "本機 AI 投資研究工作區，將 coding agent 連到研究文件、追蹤任務與市場工具。",
+    "category": "開發工作流",
+    "tags": [
+      "AI agent",
+      "Codex",
+      "Claude Code",
+      "投資研究",
+      "本機"
+    ],
+    "body": "貼文介紹 OpenAlice 將投資研究保存為持續更新的工作檔案，整理跨公司知識、建立待辦追蹤研究，並以終端工具取得行情。研究報告可送入收件匣供人審閱，並可掛接 Claude Code 或 Codex。此項目涉及投資研究，貼文描述不代表其分析或交易結果可靠。查看專案文件了解目前支援範圍與安全設定。",
+    "url": "https://github.com/TraderAlice/OpenAlice"
+  },
+  {
+    "id": "openmontage",
+    "name": "OpenMontage",
+    "summary": "把 AI coding assistant 連接到影片製作流程，涵蓋腳本、素材、旁白、剪輯與字幕。",
+    "category": "設計與創作",
+    "tags": [
+      "AI agent",
+      "影片生成",
+      "影片製作",
+      "開源",
+      "Claude Code"
+    ],
+    "body": "短影音將 OpenMontage 形容為 AI 影片製作團隊。專案 README 介紹以 coding assistant 執行影片研究、腳本、素材生成或整理、旁白、剪輯與字幕等流程。具體模型供應商、工具需求、素材授權與成本要依 README 核對。",
+    "url": "https://github.com/OpenMontageInc/OpenMontage"
+  },
+  {
+    "id": "pixelfx",
+    "name": "PixelFX",
+    "summary": "製作火焰、爆炸和魔法等像素動畫。",
+    "category": "設計與創作",
+    "tags": [
+      "像素",
+      "動畫",
+      "特效"
+    ],
+    "body": "先從現有範例找出接近的動態，再描述配色、節奏與形狀，讓代理產生變體並逐格檢視。",
+    "url": "https://github.com/patch-gg/pixelfx"
+  },
+  {
+    "id": "ponytail",
+    "name": "Ponytail",
+    "summary": "提醒開發代理選擇最簡單且足夠的解法。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "Token",
+      "用量"
+    ],
+    "body": "改程式前先檢查現有功能是否已能滿足需求，再評估最小修改與維護成本。",
+    "url": "https://github.com/DietrichGebert/ponytail"
+  },
+  {
+    "id": "printing-press",
+    "name": "Printing Press · CLI Factory",
+    "summary": "把重複使用的資料查詢包成代理可以呼叫的 CLI。",
+    "category": "開發工作流",
+    "tags": [
+      "CLI",
+      "API",
+      "Claude",
+      "Code",
+      "自動化"
+    ],
+    "body": "貼文以每日體育新聞為例：先定義來源、要取的十則新聞與輸出欄位，再讓 CLI Factory 產生工具。提供 JSON 給代理，另提供表格供人檢查，下次可直接重跑同一查詢。",
+    "url": "https://printingpress.dev/"
+  },
+  {
+    "id": "prismantis",
+    "name": "Prismantis",
+    "summary": "改善 Claude Code 終端輸出中的表格、圖表與 Mermaid 呈現。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "終端機",
+      "圖表"
+    ],
+    "body": "GitHub 專案 NahumLitvin/prismantis。截圖示範讓表格有色彩、數值轉成圖表並呈現 Mermaid。安裝前閱讀權限和終端輸出處理方式。",
+    "url": "https://github.com/NahumLitvin/prismantis"
+  },
+  {
+    "id": "react-bits",
+    "name": "React Bits",
+    "summary": "可用於 React 介面的元件與視覺效果集合。",
+    "category": "設計與創作",
+    "tags": [
+      "React",
+      "UI",
+      "元件"
+    ],
+    "body": "截圖中的設計資源清單項目，可先從官方範例挑選元件，再依專案需求檢查授權和相依套件。",
+    "url": "https://github.com/DavidHDev/react-bits"
+  },
+  {
+    "id": "scroll-world",
+    "name": "Scroll World",
+    "summary": "把品牌素材做成能捲動探索的 3D 首頁。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "捲動互動",
+      "動畫"
+    ],
+    "body": "以頁面捲動控制場景的移動，適用於產品展示和品牌故事。",
+    "url": "https://github.com/oso95/scroll-world"
+  },
+  {
+    "id": "snapzy",
+    "name": "Snapzy",
+    "summary": "macOS 截圖與螢幕錄影工具，具繁中介面、標註、捲動截圖、OCR 與自選 S3／Cloudflare R2 分享儲存。",
+    "category": "工具與應用",
+    "tags": [
+      "macOS",
+      "截圖",
+      "螢幕錄影",
+      "OCR",
+      "開源"
+    ],
+    "body": "貼文作者以 Snapzy 取代 CleanShot X，提到可自訂快捷鍵、自動複製到剪貼簿、截圖後開啟標註、設定圖片格式、區域及視窗截圖、捲動截圖、錄製系統音訊與麥克風、滑鼠點擊提示、OCR、截圖紀錄、主體去背，以及連接自己的 S3 或 Cloudflare R2 產生分享連結。貼文記載支援 Intel 與 Apple Silicon，需求為 macOS 13 以上。功能與相容資訊可能隨版本更新，安裝前查看專案頁。",
+    "url": "https://snapzy.app/zh-tw/"
+  },
+  {
+    "id": "socratic-tutor",
+    "name": "Socratic Tutor",
+    "summary": "把學習主題拆成一連串診斷問題。",
+    "category": "學習與職涯",
+    "tags": [
+      "家教",
+      "複習",
+      "Claude"
+    ],
+    "body": "截圖中的做法是先測程度，建立 0 至 5 級的能力地圖。每次只問一題，答錯時給線索，再針對薄弱處安排複習。",
+    "url": "https://github.com/janestreet/agent_skills/tree/master/socratic-tutor"
+  },
+  {
+    "id": "stop-slop",
+    "name": "Stop Slop",
+    "summary": "修訂 AI 草稿中重複或空泛的表達。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "Skill",
+      "寫作",
+      "輸出品質"
+    ],
+    "body": "用於文章初稿的編輯階段，逐段找出公式化措辭，再以具體細節重寫。",
+    "url": "https://github.com/hardikpandya/stop-slop"
+  },
+  {
+    "id": "strix",
+    "name": "Strix",
+    "summary": "應用程式安全評估工具。",
+    "category": "開發工具",
+    "tags": [
+      "資安",
+      "安全測試",
+      "AI"
+    ],
+    "body": "維護者可從三類問題檢查程式碼：登入狀態是否正確驗證、資料存取是否受權限限制、外部輸入是否經過驗證。將發現記錄成可供審查的修正項目。"
+  },
+  {
+    "id": "system-design-primer",
+    "name": "System Design Primer",
+    "summary": "以圖解和學習指南介紹系統設計概念的開源教材，適合系統設計入門與面試複習。",
+    "category": "學習與職涯",
+    "tags": [
+      "系統設計",
+      "架構",
+      "快取",
+      "負載平衡",
+      "面試"
+    ],
+    "body": "短影音推薦 GitHub 上的 System Design Primer，涵蓋用戶端、DNS、負載平衡、快取、資料庫等系統設計主題，並提供概念說明與圖示。可沿著專案目錄按主題閱讀，依自己的系統需求延伸查證。",
+    "url": "https://github.com/donnemartin/system-design-primer"
+  },
+  {
+    "id": "task-observer",
+    "name": "Task Observer",
+    "summary": "從代理工作紀錄找出可重用的做法。",
+    "category": "開發工具",
+    "tags": [
+      "Claude Code",
+      "Skill",
+      "代理",
+      "任務監看"
+    ],
+    "body": "整理使用者修正、反覆出現的任務與判斷依據，再定期審閱並改進既有技能。",
+    "url": "https://github.com/SquidyInk/task-observer"
+  },
+  {
+    "id": "taste-skill",
+    "name": "Taste Skill",
+    "summary": "為 AI 前端開發提供設計指引。",
+    "category": "設計與創作",
+    "tags": [
+      "Claude",
+      "Skills",
+      "網站",
+      "UI",
+      "UX"
+    ],
+    "body": "可在建立頁面時指定風格，並用字體、版面密度和動態的限制維持一致性。",
+    "url": "https://github.com/Leonxlnx/taste-skill"
+  },
+  {
+    "id": "arena-skill",
+    "name": "The Arena：讓多個子代理競賽同一任務",
+    "summary": "Claude Code Skill 將同一任務交給不同策略的子代理，再以淘汰賽方式比較答案。",
+    "category": "開發工作流",
+    "tags": [
+      "Claude Code",
+      "Skill",
+      "子代理",
+      "答案評估",
+      "開源"
+    ],
+    "body": "Arena skill 會讓多個子代理用不同的推理策略處理同一任務，接著互相檢視與修訂，再由裁判依評分規準淘汰答案。貼文主打 100 個代理參賽；官方 README 也提醒代理呼叫和 Token 使用量會隨參賽數增加，日常工作可選較小規模。結果是競賽中勝出的候選答案，仍需自行核對。",
+    "url": "https://github.com/Jakeschincariol/arena-skill"
+  },
+  {
+    "id": "trail-code",
+    "name": "Trail-Code：建立程式碼結構地圖",
+    "summary": "在本機分析函式與呼叫關係，協助 coding agent 理解改動的相依範圍。",
+    "category": "開發工具",
+    "tags": [
+      "程式碼地圖",
+      "Claude Code",
+      "Cursor",
+      "Codex",
+      "開源",
+      "程式分析"
+    ],
+    "body": "截圖介紹 Trail-Code，將程式拆成函式和呼叫關係圖，讓代理在修改檔案前後查到相依資訊。貼文稱它在本機運作、不需模型金鑰，並可保存團隊修正過的做法供後續代理參考。貼文中的工具呼叫和時間改善數字是專案自測，不應視為獨立基準測試。",
+    "url": "https://github.com/trailhq/Trail-Code"
+  },
+  {
+    "id": "ui-ux-pro-max",
+    "name": "UI UX Pro Max",
+    "summary": "為新介面挑選合適的設計系統。",
+    "category": "設計與創作",
+    "tags": [
+      "Claude",
+      "Skills",
+      "網站",
+      "UI",
+      "UX",
+      "設計系統"
+    ],
+    "body": "可從產品類型開始查找配色、字體搭配與版面原則。",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
+  },
+  {
+    "id": "umi-ocr",
+    "name": "Umi-OCR",
+    "summary": "Windows 免費離線 OCR 工具，可批次辨識圖片文字並提供命令列與 HTTP API。",
+    "category": "工具與應用",
+    "tags": [
+      "OCR",
+      "離線",
+      "Windows",
+      "開源",
+      "批次處理"
+    ],
+    "body": "貼文介紹 Umi-OCR 開源 OCR 專案。專案說明其可離線執行、批次辨識，並支援自訂介面、命令列和 HTTP API。辨識語言、OCR 引擎和平台支援依目前版本而定；專案 README 表示主要支援 Windows，也有不同執行環境版本可查。",
+    "url": "https://github.com/hiroi-sora/Umi-OCR"
+  },
+  {
+    "id": "uml-viewer",
+    "name": "uml-viewer：從原始碼生成架構圖",
+    "summary": "用程式碼 parser 建立架構拓樸，再將測試品質指標疊在圖上，讓圖表反映程式現況。",
+    "category": "開發工具",
+    "tags": [
+      "架構圖",
+      "Claude Code",
+      "Grok",
+      "測試品質",
+      "開源"
+    ],
+    "body": "文章介紹 Uncle Bob 的 uml-viewer。流程是 parser 掃描原始碼，套用 policy 產生拓樸中介資料，再繪圖。圖中的依賴和介面應由原始碼導出，避免手動畫出並不存在的分層。工具也可將複雜度、覆蓋率、CRAP 與 mutation 測試資料疊到命名空間或函式上。AI agent 可協助調整 policy 呈現方式，拓樸事實仍由程式碼與工具鏈產生。文章列出 crap4clj 和 clj-mutate 作為指標來源。",
+    "url": "https://github.com/unclebob/uml-viewer"
+  },
+  {
+    "id": "unslop",
+    "name": "Unslop",
+    "summary": "檢視 AI 產生的介面，按設計方向逐輪改稿。",
+    "category": "設計與創作",
+    "tags": [
+      "UI",
+      "Claude",
+      "介面",
+      "改稿"
+    ],
+    "body": "先決定介面的用途與視覺方向，再檢查配色、發光效果、漸層和圖示是否各有作用。適合已有初稿、想保留功能並改善視覺層次時使用。",
+    "url": "https://github.com/heydamir/unslop"
+  },
+  {
+    "id": "vercel-agent-desktop",
+    "name": "Vercel agent-desktop：讓代理讀取桌面無障礙樹",
+    "summary": "提供 computer-use CLI，透過應用程式的無障礙資訊取得介面元件，而非只依賴畫面截圖。",
+    "category": "開發工具",
+    "tags": [
+      "Vercel",
+      "Computer Use",
+      "CLI",
+      "Rust",
+      "桌面自動化",
+      "無障礙樹"
+    ],
+    "body": "截圖展示 agent-desktop snapshot --app Finder -i，將 Finder 的介面結構轉為 JSON 供代理檢視。專案說明包含 Rust CLI 與 C 函式庫。適合評估桌面代理如何定位介面元件；實際可讀取的元素依作業系統和應用程式提供的無障礙資訊而定。",
+    "url": "https://github.com/vercel-labs/agent-desktop"
+  },
+  {
+    "id": "vorssaint",
+    "name": "Vorssaint",
+    "summary": "開源 macOS 選單列工具合集，整合剪貼簿歷史、截圖、音量混音與系統監看等功能。",
+    "category": "工具與應用",
+    "tags": [
+      "macOS",
+      "開源",
+      "剪貼簿",
+      "截圖",
+      "系統工具"
+    ],
+    "body": "貼文提及超過 40 項工具，包括 Clipboard History、Screenshot、剪下與貼上快捷操作、各 App 音量混音、系統資源監視、保持喚醒、複製螢幕文字、快速鍵重新命名及滑鼠快速鍵。適合想把多個常用系統小工具集中在 macOS 的使用者。功能、支援版本及晶片需求以專案頁為準。",
+    "url": "https://github.com/vorssaintapp/vorssaint-utils"
+  },
+  {
+    "id": "agent-engineering-practices",
+    "name": "把 coding agent 的品質規則落實在工程工具中",
+    "summary": "將容易重犯的錯誤轉成靜態檢查，並用執行期驗證、CI 和人工審查逐層把關。",
+    "category": "提示詞與工作流程",
+    "tags": [
+      "Coding Agent",
+      "Lint",
+      "測試",
+      "CI/CD",
+      "程式碼品質",
+      "驗證"
+    ],
+    "body": "截圖整理 Lauren Tan 在 AI Engineer 大會分享的工程做法：讓程式碼庫慣例和架構限制引導代理；每次修正代理犯錯後，考慮補上 lint 或其他確定性檢查；要求代理跑測試並提供可檢視的結果，關鍵邏輯可採形式化驗證；將工具能確定的錯誤交給工具攔截，讓人工審查聚焦高階問題。貼文列出的 PR 數量和回滾率屬演講中的自述數據。"
+  },
+  {
+    "id": "ansoff",
+    "name": "用安索夫矩陣整理廣告受眾",
+    "summary": "對照新舊產品和受眾，重新組合投放素材。",
+    "category": "工具與應用",
+    "tags": [
+      "Claude",
+      "行銷",
+      "廣告",
+      "受眾"
+    ],
+    "body": "先盤點受眾包與廣告，再依市場滲透、市場開發、產品開發、多角化分組。例如，既有商品對熟客主打回購，新商品對既有客戶則聚焦試用與轉化。"
+  },
+  {
+    "id": "ai-web-design-prompt",
+    "name": "要求 AI 反覆檢查網頁設計品質的提示詞",
+    "summary": "提示 AI 以得獎網站的設計水準為目標，並透過自我檢查迭代改善。",
+    "category": "提示詞與工作流程",
+    "tags": [
+      "提示詞",
+      "網頁設計",
+      "自我檢查",
+      "前端"
+    ],
+    "body": "可作為起始提示詞：「品質標準以 Awwwards、Webby Awards、FWA 獲獎作品的程度為目標，透過自我檢查，反覆自行提升品質，直到達到該品質標準為止。」這是目標描述，不保證模型會持續迭代或實際達到獲獎水準。使用時可再補上網站受眾、內容、品牌、裝置與驗收條件，並要求提供可預覽的實作。"
+  },
+  {
+    "id": "ai-team-design-prompt",
+    "name": "設計 AI 助手團隊的七步提示詞",
+    "summary": "先盤點業務，再由總監助手規劃精簡的專責團隊、技能累積與工具串接。",
+    "category": "提示詞與工作流程",
+    "tags": [
+      "AI 助手",
+      "多代理",
+      "提示詞",
+      "團隊設計"
+    ],
+    "body": "可用的提問框架：請先問我幾個問題了解業務，再設計助手團隊。來源貼文列出七個方向：設置負責規劃和檢查其他助手的總監；只保留核心助手；讓助手工作時整理可重用的技能；替助手配置相應工具與帳號；減少人工複製貼上；讓助手以實習生的方式介紹自己；用語音傾倒需求並複述確認。這是社群貼文整理的做法，需依實際業務和存取權限調整。"
+  },
+  {
+    "id": "ai-team-safe-delivery",
+    "name": "讓非技術同仁參與 AI 輔助開發與上線",
+    "summary": "以開發時自查、程式碼審查、測試和 CI/CD 建立可供團隊協作的交付流程。",
+    "category": "提示詞與工作流程",
+    "tags": [
+      "團隊協作",
+      "非技術背景",
+      "Code Review",
+      "測試",
+      "CI/CD",
+      "Claude Code"
+    ],
+    "body": "貼文介紹的流程包括開發時使用 Superpowers、/simplify 和 /code-review 自查；由 code review agent 檢視修改；用測試和覆蓋率發現回歸；透過 CI/CD 自動測試與部署；再以 Claude Code 排程檢查和修復問題。這是個人分享的實作經驗，導入時應依專案風險、測試品質和部署權限設計人工把關。"
+  }
+]

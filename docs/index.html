@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8f4">
+    <meta name="description" content="把值得收藏的 AI 工具、提示詞與工作流程整理成容易查找的個人資料庫。">
+    <title>AI 資源庫</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="AI 資源庫首頁">
+        <span class="brand-mark" aria-hidden="true">A</span>
+        <span>AI 資源庫</span>
+      </a>
+    </header>
+
+    <main class="page-shell">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <h1 id="page-title">找到下一個<br><span>好用的 AI 資源。</span></h1>
+          <p class="intro-text">工具、提示詞與工作流程，從靈感到實作都收在這裡。</p>
+        </div>
+        <div class="intro-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <span class="orbit-center">✳</span>
+        </div>
+      </section>
+
+      <section class="library" aria-label="資源清單">
+        <div class="search-panel">
+          <label class="search-box" for="search-input">
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none"><circle cx="10.8" cy="10.8" r="6.8" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 4.2 4.2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            <input id="search-input" type="search" aria-label="搜尋資源" placeholder="搜尋工具、用途、關鍵字…" autocomplete="off" aria-describedby="search-hint">
+            <kbd>/</kbd>
+          </label>
+          <span id="search-hint" class="sr-only">輸入名稱、用途、標籤或筆記內容來搜尋</span>
+          <label class="filter-label" for="category-filter">分類</label>
+          <select id="category-filter" aria-label="依分類篩選">
+            <option value="">全部分類</option>
+          </select>
+        </div>
+
+        <div class="results-heading">
+          <div>
+            <h2>資源索引</h2>
+          </div>
+          <p id="result-count" class="result-count" aria-live="polite">載入中…</p>
+        </div>
+
+        <div id="resource-list" class="resource-list" aria-live="polite" aria-busy="true"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <span class="empty-icon" aria-hidden="true">⌕</span>
+          <h3>沒有找到符合的資源</h3>
+          <p>試試其他關鍵字，或清除目前篩選條件。</p>
+          <button id="clear-filters" class="text-button" type="button">清除搜尋與分類</button>
+        </div>
+        <p id="load-error" class="load-error" role="alert" hidden>資源清單目前無法載入，請稍後重新整理頁面。</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>AI 資源庫</span>
+    </footer>
+  </body>
+</html>
