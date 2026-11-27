@@ -25,6 +25,7 @@
         <div class="intro-copy">
           <h1 id="page-title">找到下一個<br><span>好用的 AI 資源。</span></h1>
           <p class="intro-text">工具、提示詞與工作流程，從靈感到實作都收在這裡。</p>
+          <p class="data-note">版本取自 GitHub 最新正式 Release。Repo 日期為最近推送時間（UTC）。</p>
         </div>
         <div class="intro-art" aria-hidden="true">
           <div class="orbit orbit-one"></div>
@@ -42,9 +43,9 @@
             <kbd>/</kbd>
           </label>
           <span id="search-hint" class="sr-only">輸入名稱、用途、標籤或筆記內容來搜尋</span>
-          <label class="filter-label" for="category-filter">分類</label>
-          <select id="category-filter" aria-label="依分類篩選">
-            <option value="">全部分類</option>
+          <label class="filter-label" for="category-filter">類型</label>
+          <select id="category-filter" aria-label="依資源類型篩選">
+            <option value="">全部類型</option>
           </select>
         </div>
 
@@ -52,7 +53,10 @@
           <div>
             <h2>資源索引</h2>
           </div>
-          <p id="result-count" class="result-count" aria-live="polite">載入中…</p>
+          <div class="results-status">
+            <p id="checked-date" class="checked-date">全站查核日期載入中…</p>
+            <p id="result-count" class="result-count" aria-live="polite">載入中…</p>
+          </div>
         </div>
 
         <div id="resource-list" class="resource-list" aria-live="polite" aria-busy="true"></div>
